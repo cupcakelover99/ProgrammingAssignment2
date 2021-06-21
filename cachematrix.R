@@ -2,6 +2,8 @@
 ## functions do
 
 ## Creates a special "matrix" object that can cache inverse
+## should retrieve the inverse from the cache.
+
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
